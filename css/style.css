@@ -1,0 +1,56 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+    h1,h2 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+hr.tb {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+
+.center   {text-align: center;}
+
+.right   {text-align: right;}
+
+.caption  {font-weight: bold;}
+
+/* Images */
+.figcenter   {
+    margin: auto;
+    text-align: center;
+}
+
+div.titlepage {
+  text-align: center;
+  page-break-before: always;
+  page-break-after: always;
+}
+
+div.titlepage p {
+  text-align: center;
+  text-indent: 0em;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 3em;
+}
+
+.ph1 { text-align: center; text-indent: 0em; font-weight: bold; }
+.ph1 { font-size: large; margin: .83em auto; }
